@@ -6,6 +6,7 @@ import Coding from './Components/Coding/Coding.js';
 import Writing from './Components/Writing/Writing.js';
 import Art from './Components/Art/Art.js';
 import Resume from './Components/Resume/Resume.js';
+import About from './Components/About/About.js';
 
 import './app.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <Switch>
+          <Route exact path="/" component={About}/>
           <Route path="/code" component={Coding}/>
           <Route path="/writing" component={Writing}/>
           <Route path="/art" component={Art}/>
