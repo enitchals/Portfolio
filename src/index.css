@@ -1,3 +1,10 @@
+:root {
+  --pale-purple: rgb(225,225,255);
+  --light-purple: rgb(194,194,235);
+  --med-purple: rgb(141,141,200);
+  --dark-purple: rgb(80,80,160);
+}
+
 body {
   margin: 0;
   padding: 0;
