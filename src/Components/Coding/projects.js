@@ -16,6 +16,10 @@ const projects = [
         description: "This interactive art project allows users to adjust parameters that affect a randomly-generated color field. The results are sometimes surprising and often strikingly beautiful.",
         link: "",
         code: "",
+    },
+    {
+        name: "Closet Roulette",
+        description: "This project was my Lambda Capstone project. I completed it with four other students from the CS9 graduating cohort. THIS PROJECT DESCRIPTION NEEDS MORE TEXT!"
     }
 ];
 
