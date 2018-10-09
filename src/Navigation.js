@@ -5,7 +5,7 @@ import './app.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="Nav">
         <NavLink exact to="/" className="NavLink" activeClassName="NavLink--active">About Me</NavLink>
         <NavLink to="/resume" className="NavLink" activeClassName="NavLink--active">Resume</NavLink>
         <NavLink to="/art" className="NavLink" activeClassName="NavLink--active">Art</NavLink>

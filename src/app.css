@@ -1,5 +1,8 @@
 .App {
   background: var(--pale-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Name {
@@ -10,7 +13,27 @@
   text-shadow: -2px 2px 0px var(--light-purple), -4px 4px 0px var(--med-purple), -6px 6px 0px var(--dark-purple);
 }
 
+.Background {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.Body {
+  position: absolute;
+  width: 75%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Nav {
+  background-color: rgb(225,225,255, 0.5);
+}
+
 .NavLink {
+  color: var(--dark-purple);
   margin: 5px;
   text-decoration: none;
 }
