@@ -18,6 +18,10 @@ const projects = [
         code: "",
     },
     {
+        name: "Snake",
+        description: "The classic!",
+    },
+    {
         name: "Closet Roulette",
         description: "This project was my Lambda Capstone project. I completed it with four other students from the CS9 graduating cohort. THIS PROJECT DESCRIPTION NEEDS MORE TEXT!"
     }

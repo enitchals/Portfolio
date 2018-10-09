@@ -1,0 +1,97 @@
+.MH-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MH-App {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+  }
+  
+  .MH-door-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .MH-door {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .MH-doorWidth{
+    width: 90%;
+  }
+  
+  .MH-results {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .MH-results-table{
+    font-family: 'Permanent Marker', cursive;
+    margin: .5rem;
+  }
+  
+  th, td {
+    padding: .25rem;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .MH-box {
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+  }
+  
+  .MH-title{
+    font-size: 2rem;
+  }
+  
+  .MH-title, h3{
+    color: indigo;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .MH-buttons {
+    padding: .5rem;
+    margin: 1rem;
+    color: indigo;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 800px){
+    .MH-App{
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .MH-results{
+      flex-direction: row;
+    }
+  
+    .MH-Text{
+      order: 0;
+    }
+  
+  }
+  
+  @media (max-width: 450px){
+    .MH-results{
+      flex-direction: column-reverse;
+    }
+  
+  }
