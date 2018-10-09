@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './coding.css';
+import '../coding.css';
 
 class ClosetRoulette extends Component {
   render() {
