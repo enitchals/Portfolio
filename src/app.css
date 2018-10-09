@@ -1,3 +1,21 @@
 .App {
   background: var(--pale-purple);
 }
+
+.Name {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-shadow: -2px 2px 0px var(--light-purple), -4px 4px 0px var(--med-purple), -6px 6px 0px var(--dark-purple);
+}
+
+.NavLink {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.NavLink--active {
+  color: white;
+  text-shadow: -1px 1px 3px var(--dark-purple), 1px -1px 3px var(--dark-purple), 1px 1px 3px var(--dark-purple), -1px -1px 3px var(--dark-purple);
+}
